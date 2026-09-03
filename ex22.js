@@ -10,16 +10,10 @@ let playlist = [
 ];
 
 console.log(playlist.includes("Enter Sandman"));
-
 console.log(playlist.indexOf("Enter Sandman"));
-
 let selecao = playlist.slice(0, 4);
 console.log(selecao);
-
 playlist.splice(2, 1);
-
 playlist.sort();
-
 playlist.reverse();
-
 console.log(playlist.join(" - "));
